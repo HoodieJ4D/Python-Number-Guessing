@@ -2,7 +2,8 @@ import random
 import time
 
 def guessing():
-    b = int(input("What is your first guess?"))
+    time.sleep(2)
+    b = int(input("What is your first guess? "))
     if b == x:
         time.sleep(1)
         print("Congratulations! You got the number!")
